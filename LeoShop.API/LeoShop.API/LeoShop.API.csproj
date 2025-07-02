@@ -14,4 +14,11 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\LeoShop.OrderManagement\LeoShop.OrderManagement.csproj" />
+    <ProjectReference Include="..\..\LeoShop.PaymentGateway\LeoShop.PaymentGateway.csproj" />
+    <ProjectReference Include="..\..\LeoShop.ProductCatalog\LeoShop.ProductCatalog.csproj" />
+    <ProjectReference Include="..\..\LeoShop.UserManagement\LeoShop.UserManagement.csproj" />
+  </ItemGroup>
+
 </Project>
