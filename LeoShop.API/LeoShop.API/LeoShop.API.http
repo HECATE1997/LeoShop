@@ -1,0 +1,6 @@
+@LeoShop.API_HostAddress = http://localhost:5055
+
+GET {{LeoShop.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
